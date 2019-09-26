@@ -17,7 +17,7 @@ done
 #BUILD_NUMBER=$1
 REGION=us-east-2
 #IMAGE_URI=324929335620.dkr.ecr.us-west-2.amazonaws.com/vitals-analytics:${BUILD_NUMBER}
-IMAGE_URI=${IMAGE_REGISTRY_URL}:relese_${BUILD_NUMBER}
+IMAGE_URI=${IMAGE_REGISTRY_URL}:release_${BUILD_NUMBER}
 #CLUSTER=vitals-cluster
 #SERVICE_NAME=va-service
 IMAGE_NAME=finter_${BUILD_NUMBER}

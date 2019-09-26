@@ -2,6 +2,7 @@
   "requiresCompatibilities": [
     "FARGATE"
   ],
+"executionRoleArn": "arn:aws:iam::678062660038:role/ecsTaskExecutionRole",
   "containerDefinitions": [
     {
       "name": "finter",
