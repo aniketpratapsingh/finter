@@ -6,9 +6,8 @@
   "containerDefinitions": [
     {
       "name": "finter",
+	"memoryReservation": 300,
       "image": "%IMAGE_URI%",
-      "memory": 256,
-      "cpu": 256,
       "essential": true,
       "portMappings": [
         {
