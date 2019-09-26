@@ -1,3 +1,4 @@
+[
 {
   "ipcMode": null,
   "executionRoleArn": "arn:aws:iam::678062660038:role/ecsTaskExecutionRole",
@@ -63,7 +64,7 @@
     "EC2",
     "FARGATE"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:us-east-2:678062660038:task-definition/finter-task-1:2",
+  "taskDefinitionArn": "arn:aws:ecs:us-east-2:678062660038:task-definition/finter-task-1:4",
   "family": "%FAMILY%",
   "requiresAttributes": [
     {
@@ -127,3 +128,4 @@
   "proxyConfiguration": null,
   "volumes": []
 }
+]
