@@ -10,6 +10,6 @@ COPY requirements.txt ./
 # Get pip to download and install requirements:
 RUN pip install --no-cache-dir -r requirements.txt
 # Expose ports
-EXPOSE 8000
+EXPOSE $PORT
 # default command to execute    
-CMD exec gunicorn finter.wsgi:application --bind 0.0.0.0:8000 --workers 3
+CMD exec gunicorn finter.wsgi:application --bind 0.0.0.0:$PORT --workers 3
